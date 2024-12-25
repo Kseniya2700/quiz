@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('back.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    position: relative; 
+    margin-bottom: 60px;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.option-button {
+    padding: 10px;
+    background-color: #5a5a5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+    background-color: #5a5a5a;
+}
+
+.option-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#next-question {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#next-question:hover {
+    background-color: #218838;
+}
+
+#image-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#song-image {
+    max-width: 100%;
+    width: 200px;
+    border-radius: 8px;
+}
+
+#artist {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#restart-quiz {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5a5a5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restart-quiz:hover {
+    background-color: #5a5a5a;
+}
+
+footer {
+    background-color: #5d5d5d;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+
+  
+
+.footer-content p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}

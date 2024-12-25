@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Song</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="final.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Song by Lyrics</h1>
+        <div id="quiz-container">
+            <p id="question"></p>
+            
+             <!-- Изображение артиста -->
+            <div id="image-container" class="hidden">
+                <img id="song-image" src="" alt="Song Image" width="200">
+                <p id="artist"></p>
+            </div>
+            
+            <div id="options-container">
+                <!-- Варианты ответов будут генерироваться динамически -->
+            </div>
+            <p id="feedback"></p>
+            <button id="next-question" class="hidden">Next Question</button>
+
+            <!-- Кнопка для перезапуска -->
+            <button id="restart-quiz" class="hidden">Start Quiz Again</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Kiriyatova Kseniya. Все права защищены.</p>
+        </div>
+        <div class="footer-social">|
+          <a href="https://www.instagram.com/kssniya_?igsh=MTJkY2k4cG4xcnY4cA==" target="_blank">Instagram</a> |
+          <a href="https://github.com/Kseniya2700?tab=projects" target="_blank">Github</a> |
+        </div>
+    </footer>
+    <script src="server.js"></script>
+<script src="final.js"></script>
+
+</body>
+</html>
